@@ -1,24 +1,97 @@
 <!DOCTYPE HTML>
 <html>
+
 	<head>
 		<meta charset="utf-8">
 		<title>Ejercicios con Js</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
+
 	<body>
-		<button class="button" onclick="horas_de_sueño()">Horas de Sueño</button>
-		<button class="button" onclick="pago_super()">Pago de super</button>
-		<button class="button" onclick="mal_comportamiento()">Como te portaste?</button>
-		<button class="button" onclick="piedra_papel_tijeras()">Player1 vs la compu?</button>
-		<button class="button" onclick="piedra_papel_tijeras2()">Player1 vs Player2 ?</button>
+		<article class="tarjeta">
+			<h3 class="titulo">Horas dormidas</h3>
+			<img src="imagenes/clock.png" class="icono">
+			<button class="button" onclick="horas_de_sueño()">Horas de Sueño</button>
+		</article>
+
+		<article class="tarjeta">
+			<h3 class="titulo">Pago del super</h3>
+			<img src="imagenes/cart.png" class="icono">
+			<button class="button" onclick="pago_super()">valor de super</button>
+		</article>
+
+		<article class="tarjeta">
+			<h3 class="titulo">Mala conducta</h3>
+			<img src="imagenes/dislike.png" class="icono">
+			<button class="button" onclick="mal_comportamiento()">¿como te portaste?</button>
+		</article>
+
+		<article class="tarjeta">
+			<h3 class="titulo">Piedra, Papel</h3>
+			<img src="imagenes/paper.png" class="icono">
+			<button class="button" onclick="piedra_papel_tijeras()">Player1 vs CPU</button>
+		</article>
+
+		<article class="tarjeta">
+			<h3 class="titulo">Piedra, Papel</h3>
+			<img src="imagenes/rock.png" class="icono">
+			<button class="button" onclick="piedra_papel_tijeras2()">Player1 vs Player2</button>
+		</article>
+	
+		<article class="tarjeta">
+			<h3 class="titulo">fibonacci codigo</h3>
+			<img src="imagenes/search.png" class="icono">
+			<button class="button" onclick="fibonacci()">Calcular</button>
+		</article>
+	
+
+		<article class="tarjeta">
+			<h3 class="titulo">Contraseña</h3>
+			<img src="imagenes/pin-code.png" class="icono">
+			<button class="button" onclick="contraseña()">Encriptar</button>
+		</article>
 
 
 
+		<article class="tarjeta">
+			<h3 class="titulo">Palindromo</h3>
+			<img src="imagenes/search.png" class="icono">
+			<button class="button" onclick="palindromo()">checa tu palindromo</button>
+		</article>
+
+	
+		<article class="tarjeta">
+			<h3 class="titulo">Tu historia</h3>
+			<img src="imagenes/search.png" class="icono">
+			<button class="button" onclick="historia()">Tu historia</button>
+		</article>
 
 
-
-
+		<article class="tarjeta tarjetaHistoria">
+		 	<h3 class="titulo">Genera tu historia</h3>
+		 	<img src="imagenes/search.png" class="icono">
+		 	<form action=""> <!--Formulario-->
+		 		<label for="nombre">tu nombre:</label> <!--descripcion-->
+		 		<input id="nombre" type="text" class="inputs"> <!--input de tipo de texto-->
+		 		<label for="pueblo">Donde naciste?:</label>
+		 		<input id="pueblo" type="text" class="inputs">
+		 		<label for="animalPreferido">animal preferido:</label>
+		 		<input id="animalPreferido" type="text" class="inputs">
+			 	<label for="unLugar">el peor lugar:</label>
+			 	<input id="unLugar" type="text" class="inputs">
+			 	<label for="elCrush">Quien es tu crush?:</label>
+			 	<input id="elCrush" type="text" class="inputs">
+			 	<label for="laEnfermedad">Cuando vas mucho al baño, de que estas enfermo?:</label>
+			 	<input id="laEnfermedad" type="text" class="inputs">
+				<button class="button" id="historia-boton" type="submit">Tu historia</button>
+		 	</form>
+		 	<p id="historia-caja">Tu historia aparecera aqui</p><!--lugar donde se imprime la historia-->
+		</article>
 
 		<script src="scripts.js"></script>
 	</body>
 </html>
+
+
+<!-- DOM 
+

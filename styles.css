@@ -1,9 +1,85 @@
-.button {
-	padding: 20px;
-	background-color: gray; 
-	color: yellow;
-	font-size: 12px; 
+body {
 	font-family: Arial;
+
+}
+
+.tarjeta {
+	background-color: #000080;
+	border-radius: 10px;
+	display: inline-block;
+	vertical-align: top;
+	height: 250px;
+	margin: 20px;
+	width: 200px;
+}
+
+
+.tarjetaHistoria {
+	height: auto;
+	padding: 5px;
+	display: inline-block;
+	margin: 20px 15px;
+	text-align: center;
+	font-size: 15px;
+	color: #ffff00;
+}
+
+.inputs {
+	height: 100%;
+	margin: 10px 5px;
+	font-size: 10px;
+	color: #000080;
+	background-color: #87cefa;
+
+
+}
+
+
+.button {
+	background-color: #ffff00;
+	border-color: #1B98E0;
+	border-radius: 4px;
+	color: #000080;
+	cursor: pointer;
+	display: block;
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 15px;
+	width: 80%;
+}
+
+.tarjeta .titulo {
+	color: #ffff00;
+	font-size: 20px;
+	text-align: center;
 	
 
 }
+
+.icono {
+	width:60px;
+    height:60px;
+    display: block;
+    margin: 0 auto;
+ 	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
